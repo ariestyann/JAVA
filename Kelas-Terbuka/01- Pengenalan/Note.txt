@@ -1,0 +1,1 @@
+Penulisan identifier tidak boleh diawalin dengan angka, underscore. diwajibkan menggunakan huruf Besar pada awal. dan jika kalimat tersebut panjang gunakan camelcase, contohnya : PengenalanJava

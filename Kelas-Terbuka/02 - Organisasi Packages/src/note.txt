@@ -1,0 +1,9 @@
+Compiling :
+d:\DEVELOPMENT_SOURCE\JAVA\Kelas_Terbuka\02_Organisasi_Packages\src>javac com\ariestyan\Main.java -d ..\bin
+d:\DEVELOPMENT_SOURCE\JAVA\Kelas_Terbuka\02_Organisasi_Packages\src>javac packagepengenalan\Pengenalan.java -d ../bin
+
+
+Running :
+d:\DEVELOPMENT_SOURCE\JAVA\Kelas_Terbuka\02_Organisasi_Packages\bin>java com.ariestyan.Main
+d:\DEVELOPMENT_SOURCE\JAVA\Kelas_Terbuka\02_Organisasi_Packages\bin>java packagepengenalan.Pengenalan
+Aku baru saja belajar JAVAs
