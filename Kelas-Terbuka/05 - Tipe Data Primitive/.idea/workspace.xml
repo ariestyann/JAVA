@@ -14,7 +14,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+  </component>
   <component name="ProjectId" id="1Y6eiIkZgnIb4l6XdmrGdSoy5Lw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -57,26 +66,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="26" key="#Notifications" timestamp="1583846130642">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="26" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1583846130642" />
     <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1582284780847">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582284780847" />
-    <state width="1322" height="176" key="GridCell.Tab.0.bottom" timestamp="1582284783554">
+    <state width="1322" height="140" key="GridCell.Tab.0.bottom" timestamp="1583848966213">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="176" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582284783554" />
-    <state width="1322" height="176" key="GridCell.Tab.0.center" timestamp="1582284783554">
+    <state width="1322" height="140" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583848966213" />
+    <state width="1322" height="140" key="GridCell.Tab.0.center" timestamp="1583848966212">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="176" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582284783554" />
-    <state width="1322" height="176" key="GridCell.Tab.0.left" timestamp="1582284783554">
+    <state width="1322" height="140" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583848966212" />
+    <state width="1322" height="140" key="GridCell.Tab.0.left" timestamp="1583848966212">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="176" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582284783554" />
-    <state width="1322" height="176" key="GridCell.Tab.0.right" timestamp="1582284783554">
+    <state width="1322" height="140" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583848966212" />
+    <state width="1322" height="140" key="GridCell.Tab.0.right" timestamp="1583848966213">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="176" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582284783554" />
+    <state width="1322" height="140" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583848966213" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1583847771628">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583847771628" />
     <state x="65" y="0" key="new project wizard" timestamp="1582284781988">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
