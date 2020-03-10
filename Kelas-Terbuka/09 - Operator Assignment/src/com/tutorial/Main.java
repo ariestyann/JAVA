@@ -15,7 +15,7 @@ public class Main {
         b -= 10;
         System.out.println("Hasil pengurangan assignment adalah = "+ b);
 
-        //Pengurangan
+        //Perkalian
         int c = 5;
         c *= 10;
         System.out.println("Hasil perkalian assignment adalah = "+ c);
