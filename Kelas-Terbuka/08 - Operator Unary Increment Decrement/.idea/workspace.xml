@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1Y7K4gDMmWUS7VW5zEgQDu05jY5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -81,5 +85,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="131" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1582288752378" />
+    <state x="-2" y="159" key="run.anything.popup" timestamp="1583851320478">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="-2" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583851320478" />
   </component>
 </project>
