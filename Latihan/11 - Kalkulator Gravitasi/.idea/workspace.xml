@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f50c474-b242-4391-b3cd-594bd97db045" name="Default Changelist" comment="" />
+    <list default="true" id="39ec7ed4-653d-4185-9abb-356eb84a8f5a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1YcrVpAq1TJbQBMaYAYPJb7YpUS" />
+  <component name="ProjectId" id="1ZFXGEdGCv3YGOvwHKllsk8ocfL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,11 +29,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.Main" />
-      <module name="47 - Format String" />
+      <option name="MAIN_CLASS_NAME" value="com.latihan.Main" />
+      <module name="11 - Kalkulator Gravitasi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tutorial.*" />
+          <option name="PATTERN" value="com.latihan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,38 +52,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f50c474-b242-4391-b3cd-594bd97db045" name="Default Changelist" comment="" />
-      <created>1583252749157</created>
+      <changelist id="39ec7ed4-653d-4185-9abb-356eb84a8f5a" name="Default Changelist" comment="" />
+      <created>1584435717120</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583252749157</updated>
+      <updated>1584435717120</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1584435715832">
+    <state width="1322" height="177" key="GridCell.Tab.0.bottom" timestamp="1584436801049">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584435715832" />
-    <state width="623" height="177" key="GridCell.Tab.0.bottom" timestamp="1584359204182">
+    <state width="1322" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584436801049" />
+    <state width="1322" height="177" key="GridCell.Tab.0.center" timestamp="1584436801049">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="623" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
-    <state width="623" height="177" key="GridCell.Tab.0.center" timestamp="1584359204182">
+    <state width="1322" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584436801049" />
+    <state width="1322" height="177" key="GridCell.Tab.0.left" timestamp="1584436801049">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="623" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
-    <state width="623" height="177" key="GridCell.Tab.0.left" timestamp="1584359204182">
+    <state width="1322" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584436801049" />
+    <state width="1322" height="177" key="GridCell.Tab.0.right" timestamp="1584436801049">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="623" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
-    <state width="623" height="177" key="GridCell.Tab.0.right" timestamp="1584359204182">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="623" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
-    <state x="65" y="0" key="new project wizard" timestamp="1584435717028">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1584435717028" />
+    <state width="1322" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584436801049" />
   </component>
 </project>
