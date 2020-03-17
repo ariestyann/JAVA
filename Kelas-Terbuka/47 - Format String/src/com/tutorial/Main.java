@@ -31,10 +31,10 @@ public class Main {
         int int3 = 1000;
         System.out.println("INTEGER");
         System.out.printf("%d\n",int3);
-        System.out.printf("%5d\n",int3);
+        System.out.printf("%9d\n",int3);
         System.out.printf("%-5d\n",int3); //flags "-" tanda minus agar rata kiri
-        System.out.printf("%+5d\n",int3); //flag akan mengambil slot dalam string format
-        System.out.printf("%+-5d\n",int3); //flag bisa di gabungkan
+        System.out.printf("%+9d\n",int3); //flag akan mengambil slot dalam string format
+        System.out.printf("%+-9d\n",int3); //flag bisa di gabungkan
         System.out.printf("%10d\n",int3);
         System.out.printf("% 10d\n",int3); //flag="spasi", leading spasi didepan
         System.out.printf("%010d\n",int3); // flag="0", leading 0 didepan
@@ -46,7 +46,7 @@ public class Main {
         float float1 = 1.543f;
         System.out.printf("%f\n",float1);
         System.out.printf("%5f\n",float1);
-        System.out.printf("%+9f\n",float1); //floating point dengan mengambil width 6 desimal
+        System.out.printf("%+12f\n",float1); //floating point dengan mengambil width 6 desimal
 
         System.out.println("\n[.precision]");
         float float2 = 15.678f;

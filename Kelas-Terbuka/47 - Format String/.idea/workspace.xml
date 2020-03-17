@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YcrVpAq1TJbQBMaYAYPJb7YpUS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,29 +61,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1583339487327">
+    <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1584435633816">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1583339487327" />
-    <state width="623" height="177" key="GridCell.Tab.0.bottom" timestamp="1583339490177">
+    <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1584435633816" />
+    <state width="623" height="177" key="GridCell.Tab.0.bottom" timestamp="1584359204182">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="623" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583339490177" />
-    <state width="623" height="177" key="GridCell.Tab.0.center" timestamp="1583339490176">
+    <state width="623" height="177" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
+    <state width="623" height="177" key="GridCell.Tab.0.center" timestamp="1584359204182">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="623" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583339490176" />
-    <state width="623" height="177" key="GridCell.Tab.0.left" timestamp="1583339490176">
+    <state width="623" height="177" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
+    <state width="623" height="177" key="GridCell.Tab.0.left" timestamp="1584359204182">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="623" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583339490176" />
-    <state width="623" height="177" key="GridCell.Tab.0.right" timestamp="1583339490176">
+    <state width="623" height="177" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
+    <state width="623" height="177" key="GridCell.Tab.0.right" timestamp="1584359204182">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="623" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583339490176" />
-    <state x="65" y="0" key="new project wizard" timestamp="1583339488521">
+    <state width="623" height="177" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584359204182" />
+    <state x="65" y="0" key="new project wizard" timestamp="1584435634621">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1583339488521" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1584435634621" />
   </component>
 </project>
