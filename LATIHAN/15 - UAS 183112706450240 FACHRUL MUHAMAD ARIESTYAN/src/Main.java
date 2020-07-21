@@ -26,24 +26,22 @@ public class Main {
             System.out.println("The vending machine is empty\n thanks for using our services!");
             return;
         }
-        System.out.println("============================================");
-        System.out.println("|              VENDING MACHINE             |");
-        System.out.print("============================================");
-        System.out.println("\n| No |     Items     |    Price    | Stock |");
-        System.out.println("|----+---------------+-------------+-------|");
+        System.out.println("=====================================");
+        System.out.println("|           VENDING MACHINE         |");
+        System.out.print("=====================================");
+        System.out.println("\n| No |     Items     |    Prices    |");
+        System.out.println("|----+---------------+--------------|");
         String data = bufferInput.readLine();
         while(data != null) {
             numberData++;
             StringTokenizer stringToken = new StringTokenizer(data, ",");
-            stringToken.nextToken();
             System.out.printf("| %-2d ", numberData);
             System.out.printf("| %-13s ", stringToken.nextToken());
-            System.out.printf("| %-11s ", stringToken.nextToken());
-            System.out.printf("| %-5s |", stringToken.nextToken());
+            System.out.printf("| %-12s |", stringToken.nextToken());
             System.out.print("\n");
             data = bufferInput.readLine();
         }
-        System.out.println("============================================");
+        System.out.println("=====================================");
         bufferInput.close();
         fileInput.close();
     }
@@ -57,7 +55,6 @@ public class Main {
         FileWriter fileOutput = new FileWriter(tempDB);
         BufferedWriter bufferOutput = new BufferedWriter(fileOutput);
 
-        System.out.println("List buku");
         showData();
 
         Scanner terminalInput = new Scanner(System.in);
@@ -66,54 +63,32 @@ public class Main {
 
         long entryCounts = 0;
         String data = bufferInput.readLine();
-        loops:
+        int masukanUang,totalHarga;
         while(data != null){
             entryCounts++;
             StringTokenizer st = new StringTokenizer(data,",");
             if (optionItems == entryCounts) {
-                st.nextToken();
+                String items = st.nextToken();
+                String prices = st.nextToken();
                 System.out.println("\nItem yang akan anda beli : ");
                 System.out.println("===========================");
-                System.out.println("Items : " + st.nextToken());
-                System.out.println("Prices   : " + st.nextToken());
-                System.out.println("Stocks   : " + st.nextToken());
+                System.out.println("Items    : " + items);
+                System.out.println("Prices   : " + prices);
                 System.out.println("===========================");
-                String[] fieldData = {"items", "prices", "stocks"};
-                String[] tempData = new String[3];
-
-                st = new StringTokenizer(data, ",");
-                String originalData = st.nextToken();
-                for (int i = 0; i < fieldData.length; i++) {
-                    originalData = st.nextToken();
-                    if (fieldData[i].equalsIgnoreCase("stocks")) {
-                        terminalInput = new Scanner(System.in);
-                        System.out.print("Jumlah barang: ");
-                        tempData[i] = terminalInput.nextLine();
-                    } else {
-                        tempData[i] = originalData;
-                    }
-                }
-
-                st = new StringTokenizer(data,",");
-                String items = tempData[0];
-                String prices = tempData[1];
+                System.out.println("Masukan uang anda: ");
+                masukanUang = terminalInput.nextInt();
                 int intPrices = Integer.parseInt(prices);
-                String stocks = tempData[2];
-                int intStocks = Integer.parseInt(stocks);
-                String primaryKey = st.nextToken();
-                bufferOutput.write(primaryKey+","+items+","+prices+","+stocks);
-                if(intStocks==0){
-                    System.out.println("STOK KURANG");
-                    break loops;
-                }else{
-                    int totalHarga = intStocks * intPrices;
-                    System.out.println(totalHarga);
-                }
-                data = bufferInput.readLine();
-                bufferOutput.newLine();
+                    while (masukanUang != 5000 || masukanUang != 10000 || masukanUang != 20000) {
+                        if (masukanUang == 5000 || masukanUang == 10000 || masukanUang == 20000) {
+                            totalHarga = masukanUang - intPrices;
+                            System.out.println("Kembalian yang akan anda terima: " + totalHarga);
+                        } else {
+                            System.out.println("Mesin hanya dapat menerima pecahan Rp5.000,\n Rp10.000, dan Rp20.000");
+                        }
+                    }
                 bufferOutput.write(data);
+                bufferOutput.newLine();
             }
-            bufferOutput.newLine();
             data = bufferInput.readLine();
         }
         bufferOutput.flush();
@@ -121,8 +96,8 @@ public class Main {
         fileOutput.close();
         bufferOutput.close();
         bufferInput.close();
-        database.delete();
-        tempDB.renameTo(database);
+//        database.delete();
+//        tempDB.renameTo(database);
     }
     public static boolean getYesOrNo(String message){
         Scanner terminalInput = new Scanner(System.in);
