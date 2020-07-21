@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f134842-ee20-4ff4-90a7-c5def7a8e5d3" name="Default Changelist" comment="" />
+    <list default="true" id="9f134842-ee20-4ff4-90a7-c5def7a8e5d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1YFbpH0iaMtEM5QaL7c5AZKo4Jg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,10 +63,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1582542980916">
+    <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1585653768662">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582542980916" />
+    <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1585653768662" />
     <state width="434" height="595" key="GridCell.Tab.0.bottom" timestamp="1582542983391">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -77,10 +83,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="434" height="595" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582542983390" />
-    <state x="65" y="0" key="new project wizard" timestamp="1582542982084">
+    <state x="65" y="0" key="new project wizard" timestamp="1585653770754">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1582542982084" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1585653770754" />
     <state x="346" y="59" key="search.everywhere.popup" timestamp="1582541712366">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
